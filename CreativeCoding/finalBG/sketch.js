@@ -2,7 +2,9 @@
 
  let gif; 
  
- function preload ('assets/ClineGIF.gif');
+ function preload (){
+gif = loadImage ('assets/ClineGIF.gif');
+}
 
 function setup() {//runs one time
 createCanvas (windowWidth, windowHeight);
