@@ -1,7 +1,15 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family:'Roboto', sans-serif;
+ // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
   background-color: rgb(255, 255, 255);
 }
 
